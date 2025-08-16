@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background: linear-gradient(to right, #fcd8f6, #ffd2b8, #c0c7f8); /* soft pink to violet */
+    color: #333;
+}
+
+.about-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(252, 227, 227, 0.6);
+
+}
+
+.about-title h1 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    color: #ff235a;
+    text-align: center;
+    text-shadow: #080707 0px 0px 2px;;
+    margin-top: 20px;
+}
+
+.about-title p{
+    font-size: 1.2rem;
+    margin-top: 40px;
+    color: #333;
+    text-align: center;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+.about-title li{
+    font-size: 1.2rem;
+    list-style:disc;
+    color: #333;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.anime-quotes{
+    margin-top: 50px;
+    padding: 28px;
+    background-color: transparent;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.anime-quotes h2{
+    font-size: 1.5rem;
+    color: #70001c;
+    margin-bottom: 20px;
+}
+
+.quote-list blockquote {
+  font-style: italic;
+  background-color: #2b2828;
+  color: #eee;
+  padding: 10px 20px;
+  border-left: 5px solid #ff0055; /* pink accent */
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.quote-list blockquote span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #cf0f3f; /* lighter pink */
+  font-style: normal;
+  text-align: right;
+}
+

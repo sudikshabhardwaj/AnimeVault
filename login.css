@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      background-image: url("wallpapers/interstellar-astronaut-4k-yr.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    
+    #loginForm {
+      background: rgba(204, 201, 201, 0.3);
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+      width: 380px;
+      height: 450px;;
+      text-align: center;
+    }
+
+    #loginForm h2 {
+      margin-bottom: 20px;
+      color: #7d0081;
+      font-size: 1.8rem;
+    }
+    #loginForm input {
+      width: 100%;
+      padding: 10px;
+      margin: 30px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    #loginForm button {
+      width: 100%;
+      padding: 12px;
+      background-color: #72035a;
+      border: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    #loginForm button:hover {
+      background-color: #690247;
+    }
+    .signup-link {
+      margin-top: 15px;
+      display: block;
+      color: #6e0245;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }

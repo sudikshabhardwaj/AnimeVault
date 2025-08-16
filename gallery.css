@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Arial', sans-serif;
+   color: #333;
+  box-shadow: #333 0px 0px 2px;
+    background: linear-gradient(to right, #cdfdba, #8bd2f3);
+}
+
+.h2text {
+     text-align:center;
+    font-weight: 700;
+    margin-top:30px;
+    font-size: 5rem;
+    font-style: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    background-image: url("wallpapers/jjk10.jpeg");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.wallpapers {
+     display: grid;
+    margin-top: 200px;;
+    grid-template-columns: repeat(3, 1fr); /* responsive */
+    gap: 20px;
+    padding: 30px;
+    justify-items: center;
+    }
+    .image-wrapper {
+      position: relative;
+      width: 300px;
+      height: 390px;
+      overflow: hidden;
+      border: #333 1px solid rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    .image-wrapper img {
+       width: 100%;
+      height: 100%;
+      object-fit: cover; /* crop to fit */
+      border-radius: 12px;
+      transition: transform 0.2s ease;
+    }
+    .image-wrapper:hover img {
+      transform: scale(1.04);
+    }
+    .overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      opacity: 0;
+      border-radius: 12px;
+      transition: opacity 0.3s ease;
+    }
+    .image-wrapper:hover .overlay {
+      opacity: 1;
+    }
+    .like-btn, .download-btn {
+      background: #ff235a;
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
